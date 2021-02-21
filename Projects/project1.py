@@ -1,9 +1,13 @@
-## The sources used for help with this project were
-## Geeksforgeeks.com(), John Phillip Jones(youtube:"A digital clock built with Python tkinter"), 
-# ## and Medium.com(How to make a clock in python)
+##To use the clock simply run the file and the current time will be displayed in the window.
+#The time will be displayed showing hours, minutes, and seconds on a 12 hour scale. In the future
+
+##REFERENCES
+#Geeksforgeeks.org (https://www.geeksforgeeks.org/python-create-a-digital-clock-using-tkinter/)
+#Medium.com (https://medium.com/dev-genius/how-to-make-a-clock-with-python-7587e107bb5e)
+#Youtube, John Phillip Jones (https://www.youtube.com/watch?reload=9&v=0I97O2p-4Tc)
 
 
-# Imported all of tkinter and strftime from time. 
+# Imported all of tkinter, and strftime from time. 
 from tkinter import * 
 from tkinter.ttk import *
 from time import strftime
