@@ -1,5 +1,6 @@
 ##To use the clock simply run the file and the current time will be displayed in the window.
 #The time will be displayed showing hours, minutes, and seconds on a 12 hour scale. In the future
+#I could add an alarm or stopwatch to original clock.
 
 ##REFERENCES
 #Geeksforgeeks.org (https://www.geeksforgeeks.org/python-create-a-digital-clock-using-tkinter/)
