@@ -4,7 +4,7 @@ pygame.init()
 #Creating a window
 
 win = pygame.display.set_mode((500,500))
-pygame.display.set_caption("First Game")
+pygame.display.set_caption("Square Game")
 
 #Creating basic rectangle character
 x = 50
