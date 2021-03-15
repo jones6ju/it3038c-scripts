@@ -11,3 +11,7 @@ I am currently stuck trying to work out collision so that part has been left out
 !! soon I will figure out collision and the player will lose a life for hitting a red square.
 
 !!When finished just click the X and close the window.
+
+
+*** Any help recieved was from the Channel TECH WITH TIM on Youtube***
+***specifically his series on using pygame***
