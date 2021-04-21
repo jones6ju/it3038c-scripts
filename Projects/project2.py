@@ -18,32 +18,10 @@ class player(object):
         self.vel = 10
         self.whenJump = False
         self.countJump = 10
-        self.hitbox = (self.x, self.y, 50, 50)
     
     def draw(self,win):
-        self.hitbox = (self.x, self.y, 50, 50)
-        pygame.draw.rect(win, (0,255,0), self.hitbox)
+        pygame.draw.rect(win, (0,255,0))
     
-    def hit(self):
-        print('You ran into a Bad Square!')
-        
-#Creating basic rectangular enemies
-
-class enemy(object):
-    def __init__(self, x, y, width, height):
-        self.x = x
-        self.y = y
-        self.width = width
-        self.height = height
-        self.hitbox = (self.x, self.y, 70, 70)
-    
-    def draw(self, win):
-        self.hitbox = (self.x, self.y, 70, 70)
-        pygame.draw.rect(win, (255,0,0), (bad.x, bad.y, bad.width, bad.height))
-        pygame.draw.rect(win, (255,0,0), (bad2.x, bad2.y, bad2.width, bad2.height))
-
-bad = enemy(100, 460, 70, 70)
-bad2 = enemy(250, 430, 70, 70)
 square = player(0, 450, 50, 50)
 run = True
 
@@ -83,8 +61,6 @@ while run:
     
     win.fill((0,0,0))
     pygame.draw.rect(win, (0,255,0), (square.x, square.y, square.width, square.height))
-    pygame.draw.rect(win, (255,0,0), (bad.x, bad.y, bad.width, bad.height))
-    pygame.draw.rect(win, (255,0,0), (bad2.x, bad2.y, bad2.width, bad2.height))
     pygame.display.update()
 
 pygame.quit()

@@ -10,4 +10,4 @@ color = data[0]['color']
 
 
 
-print("The name of this widget is %s and the color is %s" % (name, color))
+print(data)
